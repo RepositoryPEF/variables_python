@@ -45,3 +45,20 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+print ("ingrese el nombre completo de su TUTOR:")
+tutor = str (input())
+
+print ("ingrese el nombre completo de su TUTORA:")
+tutora = str (input())
+
+print ("ingrese su nombre completo de su ALUMNO:")
+alumno = str (input())
+
+nombret, tutor = tutor.split()
+nombret2, tutora = tutora.split()
+
+nombrealumno = alumno + " " + tutor + " " + tutora
+
+print("Su nombre completo es:", nombrealumno)
+
