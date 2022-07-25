@@ -19,6 +19,7 @@ numero_2 = int(input())
 
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
+print("Los numeros Enteros ingresados son los Siguientes", numero_1, " y el" ,numero_2)
 
 # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
 # numero_1, numero_2
@@ -28,8 +29,24 @@ numero_2 = int(input())
 
 # Suma
 
+suma = numero_1 + numero_2  
+
+print("El resultado de Sumar", numero_1, "y", numero_2, "es:", suma) 
+
 # Resta
+
+resta = numero_1 - numero_2
+
+print("El resultado de la Resta de", numero_1, "y", numero_2, "es:", resta)
 
 # División
 
+Division = numero_1 / numero_2
+
+print("El resultado de la Division de", numero_1, "y", numero_2, "es:", Division)
+
 # Multiplicación
+
+Multiplicacion = numero_1 * numero_2
+
+print("El resultado de la Multiplicacion de", numero_1, "y", numero_2, "es:", Multiplicacion)
